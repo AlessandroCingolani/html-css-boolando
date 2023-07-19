@@ -83,7 +83,7 @@ header .top-fixed {
   top:0;
   left: 0;
   padding: 20px;
-  background-color: orange;
+  background-color:rgb(255, 105, 0);
   z-index: 999;
 
 }
@@ -161,6 +161,8 @@ footer {
 
 .footer-icons h5 {
   text-align: center;
+  padding-bottom: 5px;
+  font-size: .9rem;
 }
 
 .information-footer a span {
