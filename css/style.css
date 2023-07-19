@@ -135,3 +135,18 @@ header .top-fixed {
 }
 
 /* /main */
+
+/*footer  */
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.foot-box {
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 30px 0;
+  border-bottom: 1px solid white;
+}
+
