@@ -130,6 +130,10 @@ header .top-fixed {
   position: relative;
 }
 
+.details-product h4 {
+    text-transform: uppercase;
+}
+
 .details-product :nth-child(3) {
   color: red;
   font-weight: 800;
