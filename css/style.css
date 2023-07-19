@@ -80,6 +80,7 @@ h6 {
 header .top-fixed {
   width: 100%;
   position: fixed;
+  box-shadow: 0px 0px 15px gray;
   top:0;
   left: 0;
   padding: 12px;
