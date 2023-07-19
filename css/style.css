@@ -14,6 +14,10 @@
   display: flex;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* header */
 
 header .top-fixed {
@@ -23,6 +27,7 @@ header .top-fixed {
   left: 0;
   padding: 20px;
   background-color: orange;
+  
 }
 
 .container.header-bar {
@@ -33,3 +38,4 @@ header .top-fixed {
 .logo a img {
   width: 120px;
 }
+
