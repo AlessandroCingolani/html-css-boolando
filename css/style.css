@@ -125,7 +125,7 @@ header .top-fixed {
   margin-right: 3px;
 }
 
-.details-product span:last-child {
+.details-product :nth-child(4) {
   text-decoration: line-through;
 }
 
@@ -146,7 +146,5 @@ footer {
 .foot-box {
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0 30px 0;
-  border-bottom: 1px solid white;
 }
 
