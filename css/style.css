@@ -21,10 +21,15 @@ header .top-fixed {
   position: fixed;
   top:0;
   left: 0;
+  padding: 20px;
   background-color: orange;
 }
 
 .container.header-bar {
   justify-content: space-between;
   align-items: center;
+}
+
+.logo a img {
+  width: 120px;
 }
