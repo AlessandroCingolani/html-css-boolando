@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 
-.debug > div{
-  border: 1px solid black;
-}
-
-
-.debug-box{
-  background-color: rgba(255, 0, 0, .2);
-  border: 1px solid black;
-}
 
 .container {
   width: 80%;
@@ -36,6 +27,7 @@ ul {
 
 ul li {
   display: inline-block;
+  padding-left: 10px;
 }
 
 .discount ,.green-piece {
@@ -63,6 +55,16 @@ ul li {
   right: 0;
 }
 
+h6 {
+  color: gray;
+}
+
+.hidden {
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
 /* header */
 
 header .top-fixed {
@@ -85,6 +87,9 @@ header .top-fixed {
   width: 120px;
 }
 
+.gender a {
+  padding-right: 10px;
+}
 /* main */
 
 .container .product-card {
@@ -119,4 +124,9 @@ header .top-fixed {
 
 .details-product span:last-child {
   text-decoration: line-through;
+}
+
+
+.box-img:hover .hidden {
+  display: block;
 }
