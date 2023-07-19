@@ -24,6 +24,10 @@
   display: flex;
 }
 
+.p-relative {
+  position: relative;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -60,19 +64,19 @@ header .top-fixed {
 
 /* main */
 
-.container .row {
+.container .product-card {
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.row {
+.product-card {
   width: 100%;
   margin-top: 100px;
 }
 
 .col-product {
   width: calc(100% / 3);
-  justify-content: space-between;
+  padding: 10px;
 }
 
 .col-product img {
