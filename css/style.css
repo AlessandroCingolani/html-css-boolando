@@ -38,23 +38,22 @@ ul li {
   display: inline-block;
 }
 
-.discount {
+.discount ,.green-piece {
   color: white;
-  position: absolute;
-  background-color: red;
+  position: relative;
   left: 0;
-  bottom: 50px;
+  bottom: 60px;
   padding: 1px 5px;
 }
 
-.green-piece {
-  color: white;
-  position: absolute;
-  background-color: green;
-  left: 50px;
-  bottom: 50px;
-  padding: 1px 5px;
+.discount {
+  background-color: red;
 }
+
+.green-piece {
+  background-color: green;
+}
+
 /* header */
 
 header .top-fixed {
