@@ -156,8 +156,14 @@ footer {
 .foot-box {
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
 
 .footer-icons h5 {
   text-align: center;
+}
+
+.information-footer a span {
+  font-size: .8rem;
+  padding: 5px 5px 0 0;
 }
