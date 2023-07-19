@@ -24,9 +24,6 @@
   display: flex;
 }
 
-.p-relative {
-  position: relative;
-}
 
 a {
   text-decoration: none;
@@ -39,6 +36,24 @@ ul {
 
 ul li {
   display: inline-block;
+}
+
+.discount {
+  color: white;
+  position: absolute;
+  background-color: red;
+  left: 0;
+  bottom: 50px;
+  padding: 1px 5px;
+}
+
+.green-piece {
+  color: white;
+  position: absolute;
+  background-color: green;
+  left: 50px;
+  bottom: 50px;
+  padding: 1px 5px;
 }
 /* header */
 
@@ -83,3 +98,8 @@ header .top-fixed {
 .col-product img {
   width: 100%;
 }
+
+.col-product .box-img {
+  position: relative;
+}
+
