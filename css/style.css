@@ -13,3 +13,18 @@
 .d-flex {
   display: flex;
 }
+
+/* header */
+
+header .top-fixed {
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  background-color: orange;
+}
+
+.container.header-bar {
+  justify-content: space-between;
+  align-items: center;
+}
