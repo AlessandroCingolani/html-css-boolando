@@ -82,7 +82,7 @@ header .top-fixed {
   position: fixed;
   top:0;
   left: 0;
-  padding: 20px;
+  padding: 12px;
   background-color:rgb(255, 105, 0);
   z-index: 999;
 
@@ -142,6 +142,10 @@ header .top-fixed {
 
 .box-img:hover .hidden {
   display: block;
+}
+
+.container .product-card {
+  padding-bottom: 30px;
 }
 
 /* /main */
