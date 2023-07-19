@@ -16,8 +16,16 @@
 
 a {
   text-decoration: none;
+  color: white;
 }
 
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
 /* header */
 
 header .top-fixed {
@@ -27,7 +35,8 @@ header .top-fixed {
   left: 0;
   padding: 20px;
   background-color: orange;
-  
+  z-index: 999;
+
 }
 
 .container.header-bar {
